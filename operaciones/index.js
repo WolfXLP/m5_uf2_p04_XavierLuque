@@ -3,9 +3,14 @@
  * 
  * @param  {...Number} valors els valors amb els que realitzar la operacio
  * @returns {Number} el resultat de la operacio
+ * sdvsdvsvdsdv
  */
 function suma(...valors) {
-
+    let resultat = 0;
+    for (let valor of valors) {
+        resultat += valor;
+    }
+    return resultat;
 }
 
 
