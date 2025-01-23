@@ -3,6 +3,7 @@
  * 
  * @param  {...Number} valors els valors amb els que realitzar la operacio
  * @returns {Number} el resultat de la operacio
+ * sdvsdvsvdsdv
  */
 function suma(...valors) {
     let resultat = 0;
@@ -12,6 +13,7 @@ function suma(...valors) {
     return resultat;
 }
 
+
 /**
  * Aquesta funcio multiplica tots els valors passats per parametre
  * 
@@ -19,12 +21,11 @@ function suma(...valors) {
  * @returns {Number} el resultat de la operacio
  */
 function multiplica(...valors) { 
-    let resultat = 1; 
-    for (let valor of valors) { 
-        resultat *= valor; 
-    }
-    return resultat; 
+    let resultat = 1; for (let valor of
+    valors) { resultat *= valor; } 
 }
+return resultat;
+
 
 module.exports.suma = suma;
 module.exports.multiplica = multiplica;

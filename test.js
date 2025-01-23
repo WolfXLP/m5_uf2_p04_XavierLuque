@@ -1,7 +1,7 @@
 const { describe, test } = require("node:test");
 const assert = require("node:assert");
 
-const op = require("operaciones");
+const op = require("./operaciones");
 
 describe("test operacions", () => {
     test("test suma", () => {
